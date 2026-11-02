@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Allow directories so question folders are tracked
+!*/
+
+# Keep only source code, headers, markdown docs, and gitignore
+!*.c
+!*.cpp
+!*.h
+!*.md
+!.gitignore
+
+# Compiled binaries and temporary files
+*.o
+*.out
+core
+core.*
+.vscode/
+*.fifo
+*.pipe
